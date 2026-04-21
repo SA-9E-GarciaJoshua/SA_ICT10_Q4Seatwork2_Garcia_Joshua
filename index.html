@@ -8,7 +8,7 @@
 
 <link rel="stylesheet" href="style.css">
 
-
+<!-- fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
@@ -18,30 +18,52 @@
 
 <body>
 
+<!-- form area -->
 <div class="top">
 
+    <!-- title and image -->
     <div class="title">
         <img src="logo.png">
         <div>Racers</div>
     </div>
 
+    <!-- racer info -->
     <div class="form-box">
+
+        <!-- input for racer name -->
         <input id="name" placeholder="NAME">
+
+        <!-- input for horse name -->
         <input id="horse" placeholder="HORSE">
+
+        <!-- input for racer number -->
         <input id="racer_no" placeholder="RACER NO.">
 
+        <!-- buttons section -->
         <div class="buttons">
+
+            <!-- button to add racer -->
             <button id="addBtn" class="add">Add Racer</button>
+
+            <!-- button to show racer list -->
             <button id="showBtn" class="show">Show List</button>
+
         </div>
     </div>
 
 </div>
 
+<!-- bottom section where output is shown -->
 <div class="bottom">
+
+    <!-- heading for the list -->
     <h2>Racer List:</h2>
+
+    <!-- this is where the list of racers will appear -->
     <div id="output"></div>
+
 </div>
+
 
 <py-script src="script.py"></py-script>
 
