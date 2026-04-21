@@ -1,15 +1,17 @@
 body{
     margin:0;
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(135deg, #5f0a87, #a4508b);
+    background: linear-gradient(135deg, #5f0a87, #a4508b); /* purple gradient bg */
 }
 
+/* top section of the page */
 .top{
     width:100%;
     padding:30px;
     text-align:center;
 }
 
+/* (logo + text) */
 .title{
     display:flex;
     justify-content:center;
@@ -21,11 +23,13 @@ body{
     letter-spacing:2px;
 }
 
+/* logo image */
 .title img{
     width:100px;
     margin-right:15px;
 }
 
+/* container for the input form */
 .form-box{
     margin-top:30px;
     display:flex;
@@ -34,6 +38,7 @@ body{
     gap:15px;
 }
 
+/* all input boxes */
 input{
     padding:15px;
     width:80%;
@@ -47,10 +52,12 @@ input{
     font-family: 'Montserrat', sans-serif;
 }
 
+/* text style inside inputs */
 input::placeholder{
     color:#888;
 }
 
+/* container for buttons */
 .buttons{
     display:flex;
     width:80%;
@@ -58,6 +65,7 @@ input::placeholder{
     gap:15px;
 }
 
+/* general button styling */
 button{
     flex:1;
     padding:16px;
@@ -70,24 +78,29 @@ button{
     font-family: 'Montserrat', sans-serif;
 }
 
+/* add button style */
 button.add{
     background:#ff4da6;
     color:white;
 }
 
+/* hover effect for add button */
 button.add:hover{
     background:#e04394;
 }
 
+/* show button style */
 button.show{
     background:#ffd633;
     color:#333;
 }
 
+/* hover effect for show button */
 button.show:hover{
     background:#e6c02e;
 }
 
+/* bottom section where output is shown */
 .bottom{
     width:80%;
     max-width:900px;
@@ -99,7 +112,7 @@ button.show:hover{
     min-height:200px;
 }
 
-
+/* each racers output line */
 #output p{
     font-size:16px;
     margin:8px 0;
