@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Steel Ball Run Participants</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- ✅ Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+<script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+
+</head>
+
+<body>
+
+<div class="top">
+
+    <div class="title">
+        <img src="logo.png">
+        <div>Racers</div>
+    </div>
+
+    <div class="form-box">
+        <input id="name" placeholder="NAME">
+        <input id="horse" placeholder="HORSE">
+        <input id="racer_no" placeholder="RACER NO.">
+
+        <div class="buttons">
+            <button id="addBtn" class="add">Add Racer</button>
+            <button id="showBtn" class="show">Show List</button>
+        </div>
+    </div>
+
+</div>
+
+<div class="bottom">
+    <h2>Racer List:</h2>
+    <div id="output"></div>
+</div>
+
+<py-script src="script.py"></py-script>
+
+</body>
+</html>

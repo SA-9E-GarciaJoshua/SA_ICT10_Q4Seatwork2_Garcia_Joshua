@@ -1,0 +1,106 @@
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif; /* ✅ clean base font */
+    background: linear-gradient(135deg, #5f0a87, #a4508b);
+}
+
+.top{
+    width:100%;
+    padding:30px;
+    text-align:center;
+}
+
+.title{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#ffffff;
+    font-size:48px;
+    font-weight:bold;
+    font-family: 'Cinzel', serif; /* 🔥 JoJo vibe */
+    letter-spacing:2px;
+}
+
+.title img{
+    width:100px;
+    margin-right:15px;
+}
+
+.form-box{
+    margin-top:30px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+}
+
+input{
+    padding:15px;
+    width:80%;
+    max-width:900px;
+    border-radius:10px;
+    border:none;
+    background:#ffffff;
+    color:#333;
+    text-align:left;
+    font-size:16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input::placeholder{
+    color:#888;
+}
+
+.buttons{
+    display:flex;
+    width:80%;
+    max-width:900px;
+    gap:15px;
+}
+
+button{
+    flex:1;
+    padding:16px;
+    border-radius:10px;
+    border:none;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.2s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button.add{
+    background:#ff4da6;
+    color:white;
+}
+
+button.add:hover{
+    background:#e04394;
+}
+
+button.show{
+    background:#ffd633;
+    color:#333;
+}
+
+button.show:hover{
+    background:#e6c02e;
+}
+
+.bottom{
+    width:80%;
+    max-width:900px;
+    margin:40px auto;
+    padding:20px;
+    border-radius:10px;
+    background:white;
+    color:#333;
+    min-height:200px;
+}
+
+/* Optional: style the list text slightly better */
+#output p{
+    font-size:16px;
+    margin:8px 0;
+}
