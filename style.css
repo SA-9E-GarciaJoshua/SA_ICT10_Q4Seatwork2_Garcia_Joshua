@@ -1,6 +1,6 @@
 body{
     margin:0;
-    font-family: 'Montserrat', sans-serif; /* ✅ clean base font */
+    font-family: 'Montserrat', sans-serif;
     background: linear-gradient(135deg, #5f0a87, #a4508b);
 }
 
@@ -17,7 +17,7 @@ body{
     color:#ffffff;
     font-size:48px;
     font-weight:bold;
-    font-family: 'Cinzel', serif; /* 🔥 JoJo vibe */
+    font-family: 'Cinzel', serif;
     letter-spacing:2px;
 }
 
@@ -99,7 +99,7 @@ button.show:hover{
     min-height:200px;
 }
 
-/* Optional: style the list text slightly better */
+
 #output p{
     font-size:16px;
     margin:8px 0;
